@@ -1,1 +1,50 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #ffffc7
+  }
+  
+  
+  .header {
+    padding: 430px;
+    text-align: center;
+    background: url('https://image.kkday.com/v2/image/get/s1.kkday.com/product_24010/20190514070403_pHSUA/jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    color: white;
+    font-size: 30px;
+    filter: drop-shadow(0px 5px 15px black) contrast(70%);
+  }
 
+  .logo {
+    position: absolute;
+    transform:translate(175%, -160%);
+  }
+  
+  
+  .content {padding:20px;}
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #2bbdc7;
+    color: white;
+  }
