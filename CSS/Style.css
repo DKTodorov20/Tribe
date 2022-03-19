@@ -23,7 +23,6 @@ body {
     bottom: 40%; 
   }
   
-  
   .content {
     text-shadow: 0 0 7px rgb(175, 175, 175), 0 0 0px #646464;
     color: rgb(255, 255, 255);
@@ -59,7 +58,7 @@ body {
     margin: 27px auto 0;
   
     position: relative;
-    width: 1000px;
+    width: 1200px;
     height: 50px;
     background-color: #333;
     border-radius: 8px;
@@ -87,34 +86,51 @@ body {
     border-radius: 8px;
   }
   a:nth-child(1) {
-    width: 250px;
+    width: 300px;
   }
   a:nth-child(2) {
-    width: 250px;
+    width: 300px;
   }
   a:nth-child(3) {
-    width: 250px;
+    width: 300px;
   }
   a:nth-child(4) {
-    width: 250px;
+    width: 300px;
   }
   nav .start-home, a:nth-child(1):hover~.animation {
-    width: 250px;
+    width: 300px;
     left: 0;
     background-color: #3498db;
   }
   nav .start-about, a:nth-child(2):hover~.animation {
     width: 250px;
-    left: 250px;
+    left: 300px;
     background-color: #3498db;
   }
   nav .start-blog, a:nth-child(3):hover~.animation {
     width: 250px;
-    left: 500px;
+    left: 600px;
     background-color: #3498db;
   }
   nav .start-portefolio, a:nth-child(4):hover~.animation {
     width: 250px;
-    left: 750px;
+    left: 900px;
     background-color: #3498db
+  }
+  
+  .MapInfo {
+    width: 60%;
+    height: 60%;
+    margin-top: 5%;
+    
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    background-color: #363636;
+    border-radius: 20px;
+    border: solid #363636 50px ;
+  }
+
+  .img-border{
+   
   }
