@@ -1,7 +1,7 @@
 body {
     font-family: Arial;
     margin: 0;
-    background-color: #ffffc7
+    background-color: #292929
   }
   
   
@@ -14,16 +14,20 @@ body {
     background-size: 100% 100%;
     color: white;
     font-size: 30px;
-    filter: drop-shadow(0px 5px 15px black) contrast(70%);
+    filter: drop-shadow(0px 5px 15px rgb(255, 255, 255)) contrast(70%);
   }
 
   .logo {
     position: absolute;
-    transform:translate(175%, -160%);
+    margin-left: 40%;
+    bottom: 40%; 
   }
   
   
-  .content {padding:20px;}
+  .content {
+    text-shadow: 0 0 7px rgb(175, 175, 175), 0 0 0px #646464;
+    color: rgb(255, 255, 255);
+  }
   
   .topnav {
     overflow: hidden;
@@ -34,7 +38,7 @@ body {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 18px;
     text-decoration: none;
     font-size: 17px;
   }
