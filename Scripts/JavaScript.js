@@ -1,4 +1,14 @@
-function bulgaria()
+function Italy()
 {
-    alert("Done");
+    alert("Italy");
+}
+
+function France()
+{
+    alert("France");
+}
+
+function Spain()
+{
+    alert("Spain");
 }
