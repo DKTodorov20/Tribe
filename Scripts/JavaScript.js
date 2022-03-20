@@ -1,1 +1,4 @@
-
+function bulgaria()
+{
+    alert("Done");
+}
