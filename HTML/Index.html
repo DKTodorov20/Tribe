@@ -5,7 +5,7 @@
     <title>Page Title</title>
     <link rel="stylesheet" href = "../CSS/Style.css">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <style>
     
     
@@ -13,7 +13,7 @@
     </head>
     <body>
 
-      <script src="../Scripts/Script.js"></script>
+      <script src="../Scripts/JavaScript.js"></script>
 
         <nav>
             <a class="active" href="#home">Home</a>
@@ -25,18 +25,14 @@
     <br><br>
     <div class="header">
     </div>
-
-
     <div class = "logo">
       <img src="../Images/Logo.png">
     </div>
     
-    <div class="img-border"> 
-    <img class="MapInfo" src="../Images/Map.png">
-    </div>
-
-    <br> <br> <br> <br> <br> <br> <br> <br>
-
-
+      <img class="MapInfo" src="../Images/Map.png" alt="BG" usemap="#bulgariaMap" width = 1301px height = 976px>
+      <map name = "bulgariaMap">
+        <area shape="poly"
+        coords = "686,844,783,825,789,780,754,772,729,790,677,786" onclick="bulgaria()">
+      </map>
     </body>
     </html>
