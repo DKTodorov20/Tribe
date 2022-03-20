@@ -120,14 +120,18 @@ nav .start-portefolio, a:nth-child(4):hover~.animation {
 
 .MapInfo {
   margin-top: 5%;
-  margin-right: 20%;
-  margin-left: 20%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
   background-color: #363636;
   border-radius: 20px;
-  border: solid #363636 50px ;
   position: sticky;
 }
 
-.bulgariaMap:hover{
+area:hover{
     cursor: pointer;
+}
+
+area {
+position: sticky;
 }
